@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+
+<body>
+    <h1>Developer Registration</h1>
+    <form action="">
+        <fieldset>
+
+            <legend>Complete your information</legend>
+
+            <p><label for="name">Name: </label>
+                <input type="text" placeholder="name" id="name" required minlength="3">
+            </p>
+            <p><label for="surname">Surname: </label>
+                <input type="text" placeholder="surname" id="surname">
+            </p>
+
+            <p><label for="email">Email:</label>
+                <input type="email" placeholder="email" id="email" required>
+            </p>
+
+
+            <h3>What do you do for a living?</h3>
+
+            <p>
+                <input type="radio" name="living" id="front">
+                <label for="front">Front-end</label>
+            </p>
+
+            <p>
+                <input type="radio" name="living" id="back">
+                <label for="back">Backend</label>
+            </p>
+
+            <p>
+                <input type="radio" name="living" id="full">
+                <label for="full">FullStack</label>
+            </p>
+
+
+            <h3>seniority</h3>
+
+            <label for="seniority"></label>
+            <select name="seniority" id="seniority">
+                <option value="" selected disabled>Choice</option>
+                <option value="junior">junior</option>
+                <option value="pleno">pleno</option>
+                <option value="senior">senior</option>
+            </select>
+
+            <h3>select the technology you use</h3>
+
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" name="javascript" id="javascript">
+            <label for="javascript">JAVASCRIPT</label>
+
+            <input type="checkbox" name="react" id="react">
+            <label for="react">REACT</label>
+
+            <h3>Tell us a little about your experience</h3>
+            <textarea name="about" id="about"></textarea>
+        </fieldset>
+
+        <button type="submit">completed</button>
+    </form>
+</body>
+
+</html>
