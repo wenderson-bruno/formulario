@@ -96,3 +96,29 @@ button:hover{
 .profissao > P label, input{
     cursor: pointer;
 }
+
+
+/* enviar */
+.container-enviar{
+    position: relative;
+}
+
+.confirm{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #4a04ee;
+    transition: 0.3s;
+    opacity: 0;
+    display: none;
+}
+.confirm_show{
+    opacity: 1;
+    display: block;
+}
